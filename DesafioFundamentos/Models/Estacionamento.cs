@@ -7,6 +7,7 @@ namespace ProjetoEstacionamentoDIO.Models
     class Estacionamento
     {
         private decimal precoInicial = 0;
+        
         private decimal precoPorHora = 0;
         List<string> veiculo = new List<string>();
 
