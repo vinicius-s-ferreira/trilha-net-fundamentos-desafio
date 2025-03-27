@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
+//--
 namespace ProjetoEstacionamentoDIO.Models
 {
     class Estacionamento
     {
         private decimal precoInicial = 0;
-        
+
         private decimal precoPorHora = 0;
         List<string> veiculo = new List<string>();
 
